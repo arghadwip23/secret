@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&family=Kalam&family=Monoton&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 15pt;
+}
+
+canvas,
+video {
+    display: none;
+    position: fixed;
+    width: 200px;
+    border: 1px solid #000;
+}
+
+#capture,
+#con2,
+#can{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#capture{
+    background: url(bg.svg);
+}
+
+#con2 {
+    display: none;
+    background: url(Bubble-Background.svg);
+
+}
+#img{
+    width: 60%;
+}
+#sub{
+    padding-bottom: 30px;
+    text-align: center;
+    background: linear-gradient(to top,#FFFF648F,#FFFF818F,#FFFFCD8F);
+}
+.ml1 {
+  font-weight: 400;
+  font-size: 3em;
+  font-family: "Monoton" ;
+}
+
+.ml1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml1 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml1 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #000;
+  transform-origin: 0 0;
+}
+
+.ml1 .line1 { top: 0; }
+.ml1 .line2 { bottom: 0; }
+#can{
+    display: none;
+}
+#sub2{
+    text-align: center;
+}
+#sub2 img{
+    width: 50%;
+    margin: 0;
+}
+#sub2 div{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    margin-top: 0;
+    font-family: "Cuprum";
+    background: #fff;
+    height: 100px;
+    font-size: 1.5rem;
+}
