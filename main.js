@@ -52,8 +52,8 @@ navigator.mediaDevices.getUserMedia(constraints)
         // console.log(data);
     }).catch(()=>{
       document.getElementById('lt').innerText='Permission Required';
-     document.getElementById('lt').style.font-Size 
-    }); = "1 rem" ;
+     document.getElementById('lt').style.fontSize="0.75em";
+    });  
     
 function main() {
    captureButton.style.display = 'none';
