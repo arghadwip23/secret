@@ -52,7 +52,7 @@ navigator.mediaDevices.getUserMedia(constraints)
         // console.log(data);
     }).catch(()=>{
       document.getElementById('lt').innerText='Permission Required';
-     document.getElementById('lt').style.fontSize="smaller";
+     //document.getElementById('lt').st
     });  
     
 function main() {
